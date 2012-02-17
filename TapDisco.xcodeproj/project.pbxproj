@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC7BE6ED14EE45E0000C4329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE6EC14EE45E0000C4329 /* UIKit.framework */; };
+		BC7BE6EF14EE45E0000C4329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE6EE14EE45E0000C4329 /* Foundation.framework */; };
+		BC7BE6F114EE45E0000C4329 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE6F014EE45E0000C4329 /* CoreGraphics.framework */; };
+		BC7BE6F714EE45E1000C4329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE6F514EE45E1000C4329 /* InfoPlist.strings */; };
+		BC7BE6F914EE45E1000C4329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE6F814EE45E1000C4329 /* main.m */; };
+		BC7BE6FD14EE45E1000C4329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE6FC14EE45E1000C4329 /* AppDelegate.m */; };
+		BC7BE70014EE45E1000C4329 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE6FE14EE45E1000C4329 /* MainStoryboard.storyboard */; };
+		BC7BE70314EE45E1000C4329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE70214EE45E1000C4329 /* ViewController.m */; };
+		BC7BE70B14EE45E1000C4329 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE70A14EE45E1000C4329 /* SenTestingKit.framework */; };
+		BC7BE70C14EE45E1000C4329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE6EC14EE45E0000C4329 /* UIKit.framework */; };
+		BC7BE70D14EE45E1000C4329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE6EE14EE45E0000C4329 /* Foundation.framework */; };
+		BC7BE71514EE45E1000C4329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE71314EE45E1000C4329 /* InfoPlist.strings */; };
+		BC7BE71814EE45E1000C4329 /* TapDiscoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE71714EE45E1000C4329 /* TapDiscoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC7BE70E14EE45E1000C4329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC7BE6DF14EE45E0000C4329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC7BE6E714EE45E0000C4329;
+			remoteInfo = TapDisco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC7BE6E814EE45E0000C4329 /* TapDisco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapDisco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7BE6EC14EE45E0000C4329 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC7BE6EE14EE45E0000C4329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC7BE6F014EE45E0000C4329 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC7BE6F414EE45E1000C4329 /* TapDisco-Info.plist */ = {isa = PBXFileReference; path = "TapDisco-Info.plist"; sourceTree = "<group>"; };
+		BC7BE6F614EE45E1000C4329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC7BE6F814EE45E1000C4329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7BE6FA14EE45E1000C4329 /* TapDisco-Prefix.pch */ = {isa = PBXFileReference; path = "TapDisco-Prefix.pch"; sourceTree = "<group>"; };
+		BC7BE6FB14EE45E1000C4329 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC7BE6FC14EE45E1000C4329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC7BE6FF14EE45E1000C4329 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BC7BE70114EE45E1000C4329 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		BC7BE70214EE45E1000C4329 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC7BE70914EE45E1000C4329 /* TapDiscoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapDiscoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7BE70A14EE45E1000C4329 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC7BE71214EE45E1000C4329 /* TapDiscoTests-Info.plist */ = {isa = PBXFileReference; path = "TapDiscoTests-Info.plist"; sourceTree = "<group>"; };
+		BC7BE71414EE45E1000C4329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC7BE71614EE45E1000C4329 /* TapDiscoTests.h */ = {isa = PBXFileReference; path = TapDiscoTests.h; sourceTree = "<group>"; };
+		BC7BE71714EE45E1000C4329 /* TapDiscoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapDiscoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC7BE6E514EE45E0000C4329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BE6ED14EE45E0000C4329 /* UIKit.framework in Frameworks */,
+				BC7BE6EF14EE45E0000C4329 /* Foundation.framework in Frameworks */,
+				BC7BE6F114EE45E0000C4329 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7BE70514EE45E1000C4329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BE70B14EE45E1000C4329 /* SenTestingKit.framework in Frameworks */,
+				BC7BE70C14EE45E1000C4329 /* UIKit.framework in Frameworks */,
+				BC7BE70D14EE45E1000C4329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC7BE6DD14EE45E0000C4329 = {
+			isa = PBXGroup;
+			children = (
+				BC7BE6F214EE45E0000C4329 /* TapDisco */,
+				BC7BE71014EE45E1000C4329 /* TapDiscoTests */,
+				BC7BE6EB14EE45E0000C4329 /* Frameworks */,
+				BC7BE6E914EE45E0000C4329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC7BE6E914EE45E0000C4329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE6E814EE45E0000C4329 /* TapDisco.app */,
+				BC7BE70914EE45E1000C4329 /* TapDiscoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC7BE6EB14EE45E0000C4329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE6EC14EE45E0000C4329 /* UIKit.framework */,
+				BC7BE6EE14EE45E0000C4329 /* Foundation.framework */,
+				BC7BE6F014EE45E0000C4329 /* CoreGraphics.framework */,
+				BC7BE70A14EE45E1000C4329 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC7BE6F214EE45E0000C4329 /* TapDisco */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE6FB14EE45E1000C4329 /* AppDelegate.h */,
+				BC7BE6FC14EE45E1000C4329 /* AppDelegate.m */,
+				BC7BE6FE14EE45E1000C4329 /* MainStoryboard.storyboard */,
+				BC7BE70114EE45E1000C4329 /* ViewController.h */,
+				BC7BE70214EE45E1000C4329 /* ViewController.m */,
+				BC7BE6F314EE45E1000C4329 /* Supporting Files */,
+			);
+			path = TapDisco;
+			sourceTree = "<group>";
+		};
+		BC7BE6F314EE45E1000C4329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE6F414EE45E1000C4329 /* TapDisco-Info.plist */,
+				BC7BE6F514EE45E1000C4329 /* InfoPlist.strings */,
+				BC7BE6F814EE45E1000C4329 /* main.m */,
+				BC7BE6FA14EE45E1000C4329 /* TapDisco-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC7BE71014EE45E1000C4329 /* TapDiscoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE71614EE45E1000C4329 /* TapDiscoTests.h */,
+				BC7BE71714EE45E1000C4329 /* TapDiscoTests.m */,
+				BC7BE71114EE45E1000C4329 /* Supporting Files */,
+			);
+			path = TapDiscoTests;
+			sourceTree = "<group>";
+		};
+		BC7BE71114EE45E1000C4329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE71214EE45E1000C4329 /* TapDiscoTests-Info.plist */,
+				BC7BE71314EE45E1000C4329 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC7BE6E714EE45E0000C4329 /* TapDisco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7BE71B14EE45E1000C4329 /* Build configuration list for PBXNativeTarget "TapDisco" */;
+			buildPhases = (
+				BC7BE6E414EE45E0000C4329 /* Sources */,
+				BC7BE6E514EE45E0000C4329 /* Frameworks */,
+				BC7BE6E614EE45E0000C4329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapDisco;
+			productName = TapDisco;
+			productReference = BC7BE6E814EE45E0000C4329 /* TapDisco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7BE70814EE45E1000C4329 /* TapDiscoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7BE71E14EE45E1000C4329 /* Build configuration list for PBXNativeTarget "TapDiscoTests" */;
+			buildPhases = (
+				BC7BE70414EE45E1000C4329 /* Sources */,
+				BC7BE70514EE45E1000C4329 /* Frameworks */,
+				BC7BE70614EE45E1000C4329 /* Resources */,
+				BC7BE70714EE45E1000C4329 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7BE70F14EE45E1000C4329 /* PBXTargetDependency */,
+			);
+			name = TapDiscoTests;
+			productName = TapDiscoTests;
+			productReference = BC7BE70914EE45E1000C4329 /* TapDiscoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC7BE6DF14EE45E0000C4329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BC7BE6E214EE45E0000C4329 /* Build configuration list for PBXProject "TapDisco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC7BE6DD14EE45E0000C4329;
+			productRefGroup = BC7BE6E914EE45E0000C4329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC7BE6E714EE45E0000C4329 /* TapDisco */,
+				BC7BE70814EE45E1000C4329 /* TapDiscoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC7BE6E614EE45E0000C4329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BE6F714EE45E1000C4329 /* InfoPlist.strings in Resources */,
+				BC7BE70014EE45E1000C4329 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7BE70614EE45E1000C4329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BE71514EE45E1000C4329 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC7BE70714EE45E1000C4329 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC7BE6E414EE45E0000C4329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BE6F914EE45E1000C4329 /* main.m in Sources */,
+				BC7BE6FD14EE45E1000C4329 /* AppDelegate.m in Sources */,
+				BC7BE70314EE45E1000C4329 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7BE70414EE45E1000C4329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7BE71814EE45E1000C4329 /* TapDiscoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC7BE70F14EE45E1000C4329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC7BE6E714EE45E0000C4329 /* TapDisco */;
+			targetProxy = BC7BE70E14EE45E1000C4329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC7BE6F514EE45E1000C4329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7BE6F614EE45E1000C4329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC7BE6FE14EE45E1000C4329 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7BE6FF14EE45E1000C4329 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BC7BE71314EE45E1000C4329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7BE71414EE45E1000C4329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC7BE71914EE45E1000C4329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC7BE71A14EE45E1000C4329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC7BE71C14EE45E1000C4329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapDisco/TapDisco-Prefix.pch";
+				INFOPLIST_FILE = "TapDisco/TapDisco-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC7BE71D14EE45E1000C4329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapDisco/TapDisco-Prefix.pch";
+				INFOPLIST_FILE = "TapDisco/TapDisco-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC7BE71F14EE45E1000C4329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapDisco.app/TapDisco";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapDisco/TapDisco-Prefix.pch";
+				INFOPLIST_FILE = "TapDiscoTests/TapDiscoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC7BE72014EE45E1000C4329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapDisco.app/TapDisco";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapDisco/TapDisco-Prefix.pch";
+				INFOPLIST_FILE = "TapDiscoTests/TapDiscoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC7BE6E214EE45E0000C4329 /* Build configuration list for PBXProject "TapDisco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7BE71914EE45E1000C4329 /* Debug */,
+				BC7BE71A14EE45E1000C4329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7BE71B14EE45E1000C4329 /* Build configuration list for PBXNativeTarget "TapDisco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7BE71C14EE45E1000C4329 /* Debug */,
+				BC7BE71D14EE45E1000C4329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC7BE71E14EE45E1000C4329 /* Build configuration list for PBXNativeTarget "TapDiscoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7BE71F14EE45E1000C4329 /* Debug */,
+				BC7BE72014EE45E1000C4329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC7BE6DF14EE45E0000C4329 /* Project object */;
+}
