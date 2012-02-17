@@ -20,6 +20,26 @@
 		BC7BE70D14EE45E1000C4329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE6EE14EE45E0000C4329 /* Foundation.framework */; };
 		BC7BE71514EE45E1000C4329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE71314EE45E1000C4329 /* InfoPlist.strings */; };
 		BC7BE71814EE45E1000C4329 /* TapDiscoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE71714EE45E1000C4329 /* TapDiscoTests.m */; };
+		BC7BE73514EE45F5000C4329 /* b_003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72214EE45F5000C4329 /* b_003.mp3 */; };
+		BC7BE73614EE45F5000C4329 /* b_008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72314EE45F5000C4329 /* b_008.mp3 */; };
+		BC7BE73714EE45F5000C4329 /* b_036.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72414EE45F5000C4329 /* b_036.mp3 */; };
+		BC7BE73814EE45F5000C4329 /* b_037.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72514EE45F5000C4329 /* b_037.mp3 */; };
+		BC7BE73914EE45F5000C4329 /* b_039.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72614EE45F5000C4329 /* b_039.mp3 */; };
+		BC7BE73A14EE45F5000C4329 /* b_040.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72714EE45F5000C4329 /* b_040.mp3 */; };
+		BC7BE73B14EE45F5000C4329 /* b_041.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72814EE45F5000C4329 /* b_041.mp3 */; };
+		BC7BE73C14EE45F5000C4329 /* b_042.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72914EE45F5000C4329 /* b_042.mp3 */; };
+		BC7BE73D14EE45F5000C4329 /* b_047.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72A14EE45F5000C4329 /* b_047.mp3 */; };
+		BC7BE73E14EE45F5000C4329 /* b_049.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72B14EE45F5000C4329 /* b_049.mp3 */; };
+		BC7BE73F14EE45F5000C4329 /* b_051.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72C14EE45F5000C4329 /* b_051.mp3 */; };
+		BC7BE74014EE45F5000C4329 /* b_053.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72D14EE45F5000C4329 /* b_053.mp3 */; };
+		BC7BE74114EE45F5000C4329 /* b_054.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72E14EE45F5000C4329 /* b_054.mp3 */; };
+		BC7BE74214EE45F5000C4329 /* b_090.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE72F14EE45F5000C4329 /* b_090.mp3 */; };
+		BC7BE74314EE45F5000C4329 /* b_092.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE73014EE45F5000C4329 /* b_092.mp3 */; };
+		BC7BE74414EE45F5000C4329 /* b_095.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE73114EE45F5000C4329 /* b_095.mp3 */; };
+		BC7BE74514EE45F5000C4329 /* ji_001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE73214EE45F5000C4329 /* ji_001.mp3 */; };
+		BC7BE74614EE45F5000C4329 /* ji_002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE73314EE45F5000C4329 /* ji_002.mp3 */; };
+		BC7BE74714EE45F5000C4329 /* ji_008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE73414EE45F5000C4329 /* ji_008.mp3 */; };
+		BC7BE74B14EE460D000C4329 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7BE74A14EE460D000C4329 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +57,41 @@
 		BC7BE6EC14EE45E0000C4329 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC7BE6EE14EE45E0000C4329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC7BE6F014EE45E0000C4329 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BC7BE6F414EE45E1000C4329 /* TapDisco-Info.plist */ = {isa = PBXFileReference; path = "TapDisco-Info.plist"; sourceTree = "<group>"; };
+		BC7BE6F414EE45E1000C4329 /* TapDisco-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapDisco-Info.plist"; sourceTree = "<group>"; };
 		BC7BE6F614EE45E1000C4329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC7BE6F814EE45E1000C4329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC7BE6FA14EE45E1000C4329 /* TapDisco-Prefix.pch */ = {isa = PBXFileReference; path = "TapDisco-Prefix.pch"; sourceTree = "<group>"; };
-		BC7BE6FB14EE45E1000C4329 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC7BE6FA14EE45E1000C4329 /* TapDisco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapDisco-Prefix.pch"; sourceTree = "<group>"; };
+		BC7BE6FB14EE45E1000C4329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC7BE6FC14EE45E1000C4329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC7BE6FF14EE45E1000C4329 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		BC7BE70114EE45E1000C4329 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		BC7BE70114EE45E1000C4329 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC7BE70214EE45E1000C4329 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC7BE70914EE45E1000C4329 /* TapDiscoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapDiscoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7BE70A14EE45E1000C4329 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BC7BE71214EE45E1000C4329 /* TapDiscoTests-Info.plist */ = {isa = PBXFileReference; path = "TapDiscoTests-Info.plist"; sourceTree = "<group>"; };
+		BC7BE71214EE45E1000C4329 /* TapDiscoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapDiscoTests-Info.plist"; sourceTree = "<group>"; };
 		BC7BE71414EE45E1000C4329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BC7BE71614EE45E1000C4329 /* TapDiscoTests.h */ = {isa = PBXFileReference; path = TapDiscoTests.h; sourceTree = "<group>"; };
+		BC7BE71614EE45E1000C4329 /* TapDiscoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapDiscoTests.h; sourceTree = "<group>"; };
 		BC7BE71714EE45E1000C4329 /* TapDiscoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapDiscoTests.m; sourceTree = "<group>"; };
+		BC7BE72214EE45F5000C4329 /* b_003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_003.mp3; sourceTree = "<group>"; };
+		BC7BE72314EE45F5000C4329 /* b_008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_008.mp3; sourceTree = "<group>"; };
+		BC7BE72414EE45F5000C4329 /* b_036.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_036.mp3; sourceTree = "<group>"; };
+		BC7BE72514EE45F5000C4329 /* b_037.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_037.mp3; sourceTree = "<group>"; };
+		BC7BE72614EE45F5000C4329 /* b_039.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_039.mp3; sourceTree = "<group>"; };
+		BC7BE72714EE45F5000C4329 /* b_040.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_040.mp3; sourceTree = "<group>"; };
+		BC7BE72814EE45F5000C4329 /* b_041.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_041.mp3; sourceTree = "<group>"; };
+		BC7BE72914EE45F5000C4329 /* b_042.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_042.mp3; sourceTree = "<group>"; };
+		BC7BE72A14EE45F5000C4329 /* b_047.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_047.mp3; sourceTree = "<group>"; };
+		BC7BE72B14EE45F5000C4329 /* b_049.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_049.mp3; sourceTree = "<group>"; };
+		BC7BE72C14EE45F5000C4329 /* b_051.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_051.mp3; sourceTree = "<group>"; };
+		BC7BE72D14EE45F5000C4329 /* b_053.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_053.mp3; sourceTree = "<group>"; };
+		BC7BE72E14EE45F5000C4329 /* b_054.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_054.mp3; sourceTree = "<group>"; };
+		BC7BE72F14EE45F5000C4329 /* b_090.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_090.mp3; sourceTree = "<group>"; };
+		BC7BE73014EE45F5000C4329 /* b_092.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_092.mp3; sourceTree = "<group>"; };
+		BC7BE73114EE45F5000C4329 /* b_095.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_095.mp3; sourceTree = "<group>"; };
+		BC7BE73214EE45F5000C4329 /* ji_001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ji_001.mp3; sourceTree = "<group>"; };
+		BC7BE73314EE45F5000C4329 /* ji_002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ji_002.mp3; sourceTree = "<group>"; };
+		BC7BE73414EE45F5000C4329 /* ji_008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ji_008.mp3; sourceTree = "<group>"; };
+		BC7BE74A14EE460D000C4329 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7BE74B14EE460D000C4329 /* AVFoundation.framework in Frameworks */,
 				BC7BE6ED14EE45E0000C4329 /* UIKit.framework in Frameworks */,
 				BC7BE6EF14EE45E0000C4329 /* Foundation.framework in Frameworks */,
 				BC7BE6F114EE45E0000C4329 /* CoreGraphics.framework in Frameworks */,
@@ -81,7 +122,9 @@
 		BC7BE6DD14EE45E0000C4329 = {
 			isa = PBXGroup;
 			children = (
+				BC7BE74A14EE460D000C4329 /* AVFoundation.framework */,
 				BC7BE6F214EE45E0000C4329 /* TapDisco */,
+				BC7BE72114EE45F5000C4329 /* sounds */,
 				BC7BE71014EE45E1000C4329 /* TapDiscoTests */,
 				BC7BE6EB14EE45E0000C4329 /* Frameworks */,
 				BC7BE6E914EE45E0000C4329 /* Products */,
@@ -149,6 +192,33 @@
 				BC7BE71314EE45E1000C4329 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC7BE72114EE45F5000C4329 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BC7BE72214EE45F5000C4329 /* b_003.mp3 */,
+				BC7BE72314EE45F5000C4329 /* b_008.mp3 */,
+				BC7BE72414EE45F5000C4329 /* b_036.mp3 */,
+				BC7BE72514EE45F5000C4329 /* b_037.mp3 */,
+				BC7BE72614EE45F5000C4329 /* b_039.mp3 */,
+				BC7BE72714EE45F5000C4329 /* b_040.mp3 */,
+				BC7BE72814EE45F5000C4329 /* b_041.mp3 */,
+				BC7BE72914EE45F5000C4329 /* b_042.mp3 */,
+				BC7BE72A14EE45F5000C4329 /* b_047.mp3 */,
+				BC7BE72B14EE45F5000C4329 /* b_049.mp3 */,
+				BC7BE72C14EE45F5000C4329 /* b_051.mp3 */,
+				BC7BE72D14EE45F5000C4329 /* b_053.mp3 */,
+				BC7BE72E14EE45F5000C4329 /* b_054.mp3 */,
+				BC7BE72F14EE45F5000C4329 /* b_090.mp3 */,
+				BC7BE73014EE45F5000C4329 /* b_092.mp3 */,
+				BC7BE73114EE45F5000C4329 /* b_095.mp3 */,
+				BC7BE73214EE45F5000C4329 /* ji_001.mp3 */,
+				BC7BE73314EE45F5000C4329 /* ji_002.mp3 */,
+				BC7BE73414EE45F5000C4329 /* ji_008.mp3 */,
+			);
+			name = sounds;
+			path = ../sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +293,25 @@
 			files = (
 				BC7BE6F714EE45E1000C4329 /* InfoPlist.strings in Resources */,
 				BC7BE70014EE45E1000C4329 /* MainStoryboard.storyboard in Resources */,
+				BC7BE73514EE45F5000C4329 /* b_003.mp3 in Resources */,
+				BC7BE73614EE45F5000C4329 /* b_008.mp3 in Resources */,
+				BC7BE73714EE45F5000C4329 /* b_036.mp3 in Resources */,
+				BC7BE73814EE45F5000C4329 /* b_037.mp3 in Resources */,
+				BC7BE73914EE45F5000C4329 /* b_039.mp3 in Resources */,
+				BC7BE73A14EE45F5000C4329 /* b_040.mp3 in Resources */,
+				BC7BE73B14EE45F5000C4329 /* b_041.mp3 in Resources */,
+				BC7BE73C14EE45F5000C4329 /* b_042.mp3 in Resources */,
+				BC7BE73D14EE45F5000C4329 /* b_047.mp3 in Resources */,
+				BC7BE73E14EE45F5000C4329 /* b_049.mp3 in Resources */,
+				BC7BE73F14EE45F5000C4329 /* b_051.mp3 in Resources */,
+				BC7BE74014EE45F5000C4329 /* b_053.mp3 in Resources */,
+				BC7BE74114EE45F5000C4329 /* b_054.mp3 in Resources */,
+				BC7BE74214EE45F5000C4329 /* b_090.mp3 in Resources */,
+				BC7BE74314EE45F5000C4329 /* b_092.mp3 in Resources */,
+				BC7BE74414EE45F5000C4329 /* b_095.mp3 in Resources */,
+				BC7BE74514EE45F5000C4329 /* ji_001.mp3 in Resources */,
+				BC7BE74614EE45F5000C4329 /* ji_002.mp3 in Resources */,
+				BC7BE74714EE45F5000C4329 /* ji_008.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +518,7 @@
 				BC7BE71D14EE45E1000C4329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC7BE71E14EE45E1000C4329 /* Build configuration list for PBXNativeTarget "TapDiscoTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +527,7 @@
 				BC7BE72014EE45E1000C4329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
