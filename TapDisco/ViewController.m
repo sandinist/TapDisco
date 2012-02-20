@@ -14,7 +14,7 @@ const float power = 2.0;
     captureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
     AVCaptureDeviceInput * videoInput = [AVCaptureDeviceInput deviceInputWithDevice:captureDevice error:nil];
     AVCaptureMovieFileOutput * movieFileOutput = [[AVCaptureMovieFileOutput alloc] init];
-    
+
     [captureSession beginConfiguration];
     if ([captureSession canAddInput:videoInput])  [captureSession addInput:videoInput];
     if ([captureSession canAddOutput:movieFileOutput])         [captureSession addOutput:movieFileOutput];
@@ -23,9 +23,9 @@ const float power = 2.0;
 }
 
 - (void)tapplay:(NSString *)sound {
-    NSString *path = [[NSBundle mainBundle] pathForResource:sound ofType:@"mp3"]; 
-    NSURL *url = [NSURL fileURLWithPath:path]; 
-    tapaudio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil]; 
+    NSString *path = [[NSBundle mainBundle] pathForResource:sound ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    tapaudio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     [tapaudio play];
 }
 
@@ -35,7 +35,7 @@ const float power = 2.0;
     [self setupSession];
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hundleTap)];
     [self.view addGestureRecognizer:tap];
-    
+
     [[UIAccelerometer sharedAccelerometer] setUpdateInterval:0.1];
     [[UIAccelerometer sharedAccelerometer] setDelegate:self];
     shaking = NO;
@@ -47,7 +47,7 @@ const float power = 2.0;
     [captureDevice unlockForConfiguration];
 }
 
-- (void)hundleTap {   
+- (void)hundleTap {
     self.view.backgroundColor = [UIColor greenColor];
     [self flash:NO];
 }
@@ -80,15 +80,15 @@ const float power = 2.0;
     accele = acceleration;
     if (shaking) return;
     shaking = YES;
-    
+
     if (acceleration.x > 2 || acceleration.y > 2 || acceleration.z > 2) {
         NSString * mfile;
         if (acceleration.x > 2) mfile = @"ji_001";
         if (acceleration.y > 2) mfile = @"ji_002";
         if (acceleration.z > 2) mfile = @"ji_008";
-        NSString *path = [[NSBundle mainBundle] pathForResource:mfile ofType:@"mp3"]; 
-        NSURL *url = [NSURL fileURLWithPath:path]; 
-        moveaudio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil]; 
+        NSString *path = [[NSBundle mainBundle] pathForResource:mfile ofType:@"mp3"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        moveaudio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
         [moveaudio play];
     }
     shaking = NO;
@@ -117,12 +117,12 @@ const float power = 2.0;
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-	[super viewWillDisappear:animated];
+  [super viewWillDisappear:animated];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-	[super viewDidDisappear:animated];
+  [super viewDidDisappear:animated];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
